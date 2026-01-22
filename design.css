@@ -1,0 +1,221 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding:10px ;
+    color: white;
+      background:linear-gradient(  rgba(139,69,19,0.6));
+      border:1px solid black;
+}
+ header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+       
+}
+ header ul li{
+     display: inline;
+     margin: 10px;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+  nav ul li a:hover {
+      text-decoration: underline dashed;
+    }
+
+.hero{
+
+    height: 100vh;
+      background: linear-gradient(
+        rgba(139,69,19,0.6),
+        rgba(139,69,19,0.2)
+      ),
+      url("images/decore.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      padding: 20px;
+      color: white;      
+}
+.hero-text{
+    position: absolute;
+    left: 60px;
+    top: 100px;
+
+}
+.hero-text h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.hero-text,p{
+    font: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    left: 60px;
+    top: 100px;
+    
+}
+ .hero-text button {
+    padding: 15px;
+    border: 1px solid black;
+    border-color: white;
+    background-color:white;
+     color: black;
+     margin: 20px;;
+}
+.hero button a {
+    text-decoration:none ;
+}
+.about-container{
+    padding: 25px;
+    text-align: justify;
+    padding: 60px 30px;
+    background-color: #f8f8f8;
+    max-width: 8000px;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    
+}
+.about-container h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.about-container p{
+    margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 16px;
+    text-align: justify;
+    font: 400;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.pro-set h2{
+    text-align: center;
+    font: 700;
+}
+.pro-set{
+    text-align: center;
+    font: 400;
+    padding: 15px;
+}
+
+.project-card{
+    display:inline-block;
+    margin: 35px;
+    padding: 30px 30px;
+    gap: 25px;
+    text-align: justify;
+    border-radius: 20px;
+    
+
+}
+.project-card p{
+    text-align: center;
+    font: 350;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.project-card h3{
+    text-align: center;
+    font: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-card,img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+border-radius: 8px; 
+}
+.pro-set p{
+    text-align: center;
+
+}
+.project{
+    background-color: #f8f8f8;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+.contact,h3 {
+   text-align: center;
+   font-size: large;
+   font: 300;
+    
+ }
+ .contact,p{
+     margin-bottom: 15px;
+    line-height: 1.7;
+    font-size: 16px;
+    text-align: justify;
+    font: 400;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .contact,form{
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 10px;
+   gap: 10px;
+ }
+ .contact,label{
+   text-align: center;
+   gap: 10px;
+ }
+ .contact,input{
+   text-align: center;
+   width: 300px;
+   margin: 0 auto;
+   padding: 10px;
+   border-radius: 10px;
+ }
+ .contact,textarea{
+   margin: 0 auto;
+   text-align: center;
+   row-gap: 10px;
+ }
+  form button{
+    border: 1px solid black;
+    border-radius: 15px;
+     color:black;
+     width: 300px;
+    padding: 10px;
+     background-color:white;
+    margin: 0 auto;
+
+ }
+ form button:hover{
+  background-color:blue;
+  cursor: pointer;
+ }
+ footer{
+  background:linear-gradient(  rgba(139,69,19,0.6));
+  color:white;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+ }
+ 
+ 
+ 
+
+ 
+
+
+
